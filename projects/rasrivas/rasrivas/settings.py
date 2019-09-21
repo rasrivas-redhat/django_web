@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'accounts',
     'travelo_app.apps.TraveloAppConfig',
     'django.contrib.admin',
     'django.contrib.auth',
